@@ -1,0 +1,7 @@
+# Directories
+webroot/app/code/local/BlueAcorn/MegaMenu   app/code/local/BlueAcorn/MegaMenu
+
+# Files
+webroot/app/design/frontend/base/default/layout/blueacorn/megamenu.xml  app/design/frontend/base/default/layout/blueacorn/megamenu.xml
+webroot/app/design/frontend/base/default/template/blueacorn/page/html/topmenu/renderer.phtml  app/design/frontend/base/default/template/blueacorn/page/html/topmenu/renderer.phtml
+webroot/app/etc/modules/BlueAcorn_MegaMenu.xml  app/etc/modules/BlueAcorn_MegaMenu.xml

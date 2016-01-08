@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <BlueAcorn_MegaMenu>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <BlueAcorn_EasyAttributes />
+            </depends>
+        </BlueAcorn_MegaMenu>
+    </modules>
+</config>
