@@ -46,6 +46,13 @@
                 <class>BlueAcorn_MegaMenu_Helper</class>
             </blueacorn_megamenu>
         </helpers>
+        <blocks>
+            <adminhtml>
+                <rewrites>
+                    <cms_block_edit_form>BlueAcorn_MegaMenu_Block_Adminhtml_Cms_Block_Edit_Form</cms_block_edit_form>
+                </rewrites>
+            </adminhtml>
+        </blocks>
     </global>
     <frontend>
         <layout>
