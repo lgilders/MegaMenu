@@ -48,9 +48,9 @@
         </helpers>
         <blocks>
             <adminhtml>
-                <rewrites>
+                <rewrite>
                     <cms_block_edit_form>BlueAcorn_MegaMenu_Block_Adminhtml_Cms_Block_Edit_Form</cms_block_edit_form>
-                </rewrites>
+                </rewrite>
             </adminhtml>
         </blocks>
     </global>
