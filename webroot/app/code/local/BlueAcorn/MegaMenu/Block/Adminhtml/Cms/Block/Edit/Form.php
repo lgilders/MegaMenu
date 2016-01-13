@@ -72,6 +72,10 @@ class BlueAcorn_MegaMenu_Block_Adminhtml_Cms_Block_Edit_Form extends Mage_Adminh
             ),
         ));
 
+        if (!$model->getId()) {
+            $model->setData('is_active', '1');
+        }
+
         // Add custom dropdown field for is_in_mega_menu to the form
         $fieldset->addField('is_in_mega_menu', 'select', array(
             'label'     => Mage::helper('cms')->__('Used in Mega Menu'),
@@ -83,10 +87,6 @@ class BlueAcorn_MegaMenu_Block_Adminhtml_Cms_Block_Edit_Form extends Mage_Adminh
                 '0' => Mage::helper('cms')->__('No'),
             ),
         ));
-
-        if (!$model->getId()) {
-            $model->setData('is_active', '1');
-        }
 
         $fieldset->addField('content', 'editor', array(
             'name'      => 'content',
