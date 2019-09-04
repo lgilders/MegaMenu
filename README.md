@@ -10,3 +10,6 @@ Features :
 * Set any category as a top-level category for the mega menu.
 * Choose the display order for all top-level categories.
 * Associate CMS block content with a top-level category for the mega menu.
+
+
+NOTE: In progress build
